@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Glow & Study Tracker</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #fff5f7;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #ff4d6d;
+    }
+    .box {
+      background: white;
+      padding: 15px;
+      margin: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ddd;
+    }
+    input[type="checkbox"] {
+      transform: scale(1.2);
+      margin-right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>✨ My Glow & Study Tracker ✨</h1>
+
+<div class="box">
+  <h2>🌸 Skincare Routine</h2>
+  <label><input type="checkbox"> Face Wash</label><br>
+  <label><input type="checkbox"> Serum</label><br>
+  <label><input type="checkbox"> Moisturizer</label><br>
+  <label><input type="checkbox"> Sunscreen</label><br>
+  <label><input type="checkbox"> Night Routine Done</label>
+</div>
+
+<div class="box">
+  <h2>📚 Study Tracker</h2>
+  <label><input type="checkbox"> Physics</label><br>
+  <label><input type="checkbox"> Chemistry</label><br>
+  <label><input type="checkbox"> Biology</label><br>
+  <label><input type="checkbox"> Maths</label><br>
+  <label><input type="checkbox"> English</label>
+</div>
+
+<div class="box">
+  <h2>🏃 Weight Loss</h2>
+  <label><input type="checkbox"> Treadmill Done</label><br>
+  <label><input type="checkbox"> No Junk Food</label><br>
+  <label><input type="checkbox"> Green Tea / Coffee</label>
+</div>
+
+<div class="box">
+  <h2>📝 Notes</h2>
+  <textarea rows="5" cols="30" placeholder="Write your notes..."></textarea>
+</div>
+
+</body>
+</html>
